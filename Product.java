@@ -1,4 +1,4 @@
-import java.net.StandardSocketOptions;
+
 import java.util.Scanner;
 
 public class Product {
