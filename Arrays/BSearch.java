@@ -3,8 +3,9 @@ package Arrays;
 public class BSearch {
     public static int BinaryS(int arr[] , int key){
         int start=0,end=arr.length-1;
-        int mid = (start + end ) / 2;
+        
         while(start <= end){
+            int mid = (start + end ) / 2;
             if(arr[mid] == key){
                 return mid;
             }
