@@ -1,4 +1,6 @@
 public class TrappedRainWater {
+
+    // complaxity O(n)
     public static int trappedWater(int height[]){
         int n = height.length;
 
